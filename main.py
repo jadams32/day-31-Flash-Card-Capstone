@@ -31,8 +31,6 @@ no_image = PhotoImage(file="images/right.png")
 no_button = Button(image=no_image, highlightthickness=0, command=needs_study)
 no_button.grid(column=0, row=1)
 
-
-
 # TODO: Build button functions "needs_study", and known_phrase
 # TODO: import data from the csv
 # TODO: categorize known and unknown phrases
